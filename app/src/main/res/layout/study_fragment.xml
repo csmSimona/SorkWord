@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_height="55dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/word_text"
+            android:textSize="27dp"
+            android:text="名人名句"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:layout_height="27dp"
+            android:layout_width="27dp"
+            android:background="@mipmap/vioce"
+            android:id="@+id/play_vioce"
+            android:layout_marginRight="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/wisdom_english"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="A watched pot never boils"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="17sp"/>
+    <TextView
+        android:id="@+id/wisdom_china"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="心急喝不了热粥"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="17sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:id="@+id/review_btn"
+        android:text="开始复习"
+        android:textColor="@color/white"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/btn_review"
+        />
+
+    <RelativeLayout
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_centerVertical="true"
+            android:background="@android:color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="答错题数"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:text="掌握单词"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="140dp"
+            android:text="学习难度"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="140dp"
+            android:layout_marginRight="20dp"
+            android:text="今天解锁"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/wrong_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="60dp"
+            android:text="10"
+            android:textColor="@android:color/holo_blue_light"
+            android:textSize="27sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="65dp"
+            android:text="词"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/already_mastered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="60dp"
+            android:text="40"
+            android:textColor="@android:color/holo_blue_light"
+            android:textSize="27sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="65dp"
+            android:layout_marginRight="24dp"
+            android:text="词"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/difficulty_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="四级英语"
+            android:textSize="20sp"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@android:color/holo_blue_light"/>
+
+        <TextView
+            android:id="@+id/already_study"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="70"
+            android:textSize="27sp"
+            android:layout_marginTop="195dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="60dp"
+            android:textColor="@android:color/holo_blue_light"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="200dp"
+            android:layout_marginRight="20dp"
+            android:text="次"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

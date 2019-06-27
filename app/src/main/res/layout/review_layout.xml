@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    -<RelativeLayout
+    android:layout_height="50dp"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="@android:color/holo_blue_light">
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="@mipmap/fanhui"
+        android:layout_marginLeft="15dp"
+        android:layout_centerVertical="true"
+        android:id="@+id/review_back_btn"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerVertical="true"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:text="复习单词"
+        android:layout_centerHorizontal="true"/>
+
+
+     </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:layout_below="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/viewpager"
+        android:clipChildren="false">
+    </android.support.v4.view.ViewPager>
+
+
+    <RelativeLayout
+        android:layout_height="85dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/review_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_review"
+            android:text="○ 记住了"
+            android:textColor="@color/white"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="70dp" />
+
+        <Button
+            android:id="@+id/review_no"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_review"
+            android:text="× 没记住"
+            android:textColor="@color/white"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="70dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="-5dp">
+
+        <TextView
+            android:id="@+id/currentItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textColor="@android:color/holo_blue_light"/>
+        <TextView
+            android:id="@+id/dispatch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:textColor="@android:color/holo_blue_light"/>
+        <TextView
+            android:id="@+id/allItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:textColor="@android:color/holo_blue_light"/>
+
+    </LinearLayout>
+
+</LinearLayout>

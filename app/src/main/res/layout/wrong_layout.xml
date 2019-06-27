@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    -<RelativeLayout
+    android:layout_height="50dp"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="@android:color/holo_blue_light">
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="@mipmap/fanhui"
+        android:layout_marginLeft="15dp"
+        android:layout_centerVertical="true"
+        android:id="@+id/back_btn"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerVertical="true"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:text="生词本"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_height="30dp"
+        android:layout_width="60dp"
+        android:background="@drawable/btn_kuang"
+        android:layout_centerVertical="true"
+        android:id="@+id/i_know_btn"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:text="我会了"
+        android:padding="3dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"/>
+
+     </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:layout_below="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="470dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/viewpager"
+        android:clipChildren="false">
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/currentItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textColor="@android:color/holo_blue_light"/>
+        <TextView
+            android:id="@+id/dispatch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:textColor="@android:color/holo_blue_light"/>
+        <TextView
+            android:id="@+id/allItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:textColor="@android:color/holo_blue_light"/>
+
+    </LinearLayout>
+
+</LinearLayout>

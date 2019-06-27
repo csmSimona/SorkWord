@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:id="@+id/lockback"
+    android:background="@mipmap/background"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="7dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="下拉标记为已掌握"
+            android:textSize="13dp"
+            android:textColor="#e6e6e6"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@mipmap/down"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/time_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:gravity="center_horizontal"
+        android:text="09:42"
+        android:textSize="50dp"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/date_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:text="7月20日 星期三"
+        android:textColor="@color/white"
+        android:textSize="17dp"/>
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="85dp"
+       android:layout_marginTop="40dp">
+       <TextView
+           android:id="@+id/word_text"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerHorizontal="true"
+           android:text="parent"
+           android:textColor="@color/white"
+           android:textSize="50dp"/>
+
+       <ImageView
+           android:id="@+id/play_voice"
+           android:layout_width="27dp"
+           android:layout_height="27dp"
+           android:layout_alignParentBottom="true"
+           android:layout_alignParentRight="true"
+           android:layout_marginRight="60dp"
+           android:background="@mipmap/vioce"/>
+
+   </RelativeLayout>
+
+   <TextView
+       android:id="@+id/english_text"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center_horizontal"
+       android:layout_marginTop="5dp"
+       android:text="[perent]"
+       android:textColor="@color/white"
+       android:textSize="20dp"/>
+
+    <RadioGroup
+        android:id="@+id/choose_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+     <RadioButton
+         android:id="@+id/choose_btn_one"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="A: 兄弟"
+         android:button="@null"
+         android:textColor="@color/white"
+         android:textSize="20sp"/>
+
+        <RadioButton
+            android:id="@+id/choose_btn_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="B: 姐妹"
+            android:button="@null"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+
+        <RadioButton
+            android:id="@+id/choose_btn_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="C: 父母"
+            android:button="@null"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="85dp"
+
+        >
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@mipmap/up"/>
+    </LinearLayout>
+
+</LinearLayout>
