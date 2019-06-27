@@ -23,31 +23,3 @@
 （7）锁屏壁纸选择：可选默认壁纸，也可选取手机相册照片作为锁屏壁纸。
 
 （8）名人名句：每日一句名人名句。
-
-## **UI界面**
-
- 
-
-![img](file:///C:\Users\csm\AppData\Local\Temp\ksohtml\wps519B.tmp.jpg)		![img](file:///C:\Users\csm\AppData\Local\Temp\ksohtml\wps51AC.tmp.jpg)
-
-​                                   首页	                  							设置界面
-
-![img](file:///C:\Users\csm\AppData\Local\Temp\ksohtml\wps51AD.tmp.jpg)		![img](file:///C:\Users\csm\AppData\Local\Temp\ksohtml\wps51AE.tmp.jpg)
-
-​                               锁屏界面	                           					锁屏答题错误
-
-![img](file:///C:\Users\csm\AppData\Local\Temp\ksohtml\wps51BE.tmp.jpg)		![img](file:///C:\Users\csm\AppData\Local\Temp\ksohtml\wps51BF.tmp.jpg)
-
-​                        锁屏界面答题正确	                  			设置界面开启锁屏，更换锁屏壁纸
-
-![img](file:///C:\Users\csm\AppData\Local\Temp\ksohtml\wps51C0.tmp.jpg)		![img](file:///C:\Users\csm\AppData\Local\Temp\ksohtml\wps51D1.tmp.jpg)
-
-​                   更换壁纸后的锁屏界面	                       				   翻译界面
-
-​	![img](file:///C:\Users\csm\AppData\Local\Temp\ksohtml\wps51D2.tmp.jpg)        ![img](file:///C:\Users\csm\AppData\Local\Temp\ksohtml\wps51D3.tmp.jpg)	
-
-​                             英文翻译结果界面				 中文翻译结果界面
-
-![img](file:///C:\Users\csm\AppData\Local\Temp\ksohtml\wps51E4.tmp.jpg)   ![img](file:///C:\Users\csm\AppData\Local\Temp\ksohtml\wps51E5.tmp.jpg)   ![img](file:///C:\Users\csm\AppData\Local\Temp\ksohtml\wps51E6.tmp.jpg)
-
-翻译历史					复习单词界面				 生词本界面
